@@ -16,9 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <body className={inter.className}>
-        <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
+        <AppRouterCacheProvider>
+          <main className="w-full min-h-screen flex flex-col justify-center items-center">{children}</main>
+        </AppRouterCacheProvider>
       </body>
     </html>
   );
