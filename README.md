@@ -25,3 +25,15 @@ npm install @mui/material-nextjs @emotion/cache
 
 【参考】
 https://mui.com/material-ui/integrations/nextjs/
+
+
+## Jotaiの導入
+
+- Jotaiライブラリの導入
+```
+npm install jotai
+```
+
+【参考】
+https://jotai.org/
+
